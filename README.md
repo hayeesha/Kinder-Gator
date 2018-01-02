@@ -1,0 +1,3 @@
+# Kinder-Gator
+
+Kinder-Gator is a dataset of 58 motions performed by ten children (ages 5 to 9) and 10 adults (ages 19 to 32) recorded using the Kinect v1.0. To facilitate easy navigation of the dataset, data in the dataset has been labeled according to the category of the participant (child, adult). Within each category, the data has been labeled in the form of ``POSE-PID\_motion\#-motionName-Timestamp.csv." PID is the participant id which is unique for each participant. Gestur\# is the number of the motion labeled 01--58 according to the order the motion was performed. motionName is the name of the motion corresponding to the names in Table \ref{fig:table1}. Timestamp is the UNIX timestamp representing the date and time the motion was performed.
