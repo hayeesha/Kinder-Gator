@@ -1,11 +1,11 @@
 # Kinder-Gator
 Description
 ---------
-This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motions that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the conceptualization of imaginary objects (mime), and motions that are used to convey information to other people (communication). 
+This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motions that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the conceptualization of imaginary objects (mime), and motions that are usedto convey information to other people (communication). 
 
 Demographics
 ------------
-ChildID    Sex      Age     Handedness    Grade       ||       AdultID     Sex      Age    Handedness     EducationCompleted
+ChildID		Sex      Age     Handedness    Grade       ||       AdultID     Sex      Age    Handedness     EducationCompleted
 ______________________________________________________________________________________________________________________________
 290         M       6       R             K           ||        934         M       32      R             Grad
 644         F       9       R             4           ||        970         M       28      R             Grad
