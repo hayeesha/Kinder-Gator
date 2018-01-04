@@ -5,7 +5,7 @@ This is the Kinder-Gator motion dataset. The data set contains the motion of unt
 
 Demographics
 ------------
-ChildID     Sex     Age     Handedness    Grade       ||        AdultID     Sex     Age     Handedness    EducationCompleted
+ChildID    Sex      Age     Handedness    Grade       ||       AdultID     Sex      Age    Handedness     EducationCompleted
 ______________________________________________________________________________________________________________________________
 290         M       6       R             K           ||        934         M       32      R             Grad
 644         F       9       R             4           ||        970         M       28      R             Grad
