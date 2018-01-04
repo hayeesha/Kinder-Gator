@@ -1,6 +1,10 @@
 Description
 ---------
-This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motions that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the conceptualization of imaginary objects (mime), and motions that are used to convey information to other people (communication). 
+This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different
+ actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. 
+The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motion
+s that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the 
+conceptualization of imaginary objects (mime), and motions that are used to convey information to other people (communication). 
 
 Demographics
 ------------
@@ -44,8 +48,18 @@ Bend your other knee        Walk in place as fast as you can      Kick a ball wi
                                                                   
 Data Collection
 -----------------
-Every participant performed 58 motions for a total of 1159 trials (58 motions x 20 participants); motion trial for jump high for AdultID:565 is missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 921-2 actions (forward lunge, make the letter M with your body)).
+Every participant performed 58 motions for a total of 1159 trials (58 motions x 20 participants); motion trial for jump high for AdultID:565 
+is missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as 
+possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were 
+demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, 
+put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen 
+in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the 
+letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 
+921-2 actions (forward lunge, make the letter M with your body)).
 
 Data Format
 -----------------
-Data in the dataset has been labeled according to the category of the participant (child, adult). Within each category, the data has been labeled in the form of "POSE-PID_motion#-motionName-Timestamp.csv." PID is the participant id which is unique for each participant. motion# is the number of the motion labeled 01--58 according to the order the motion was performed. motionName is the name of the motion being performed. Timestamp is the UNIX timestamp representing the date and time the motion was performed. 
+Data in the dataset has been labeled according to the category of the participant (child, adult). Within each category, the data has been labeled
+ in the form of "POSE-PID_motion#-motionName-Timestamp.csv." PID is the participant id which is unique for each participant. motion# is the 
+number of the motion labeled 01--58 according to the order the motion was performed. motionName is the name of the motion being performed. 
+Timestamp is the UNIX timestamp representing the date and time the motion was performed. 
