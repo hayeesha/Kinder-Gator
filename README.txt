@@ -1,26 +1,21 @@
 Description
 ---------
-This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different
- actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. 
-The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motion
-s that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the 
-conceptualization of imaginary objects (mime), and motions that are used to convey information to other people (communication). 
+This is the Kinder-Gator motion dataset. The data set contains the motion of untrained actors (10 adults and 10 children) performing 58 different actions tracked using the Kinect v1.0.  This is an anonymized dataset for use in animation and whole-body recognition and interaction. The motions in the dataset have been categorized to consider motions that are easy to perform and used in day-to-day activities (warm-up), motions that induce exertion when performed and are commonly used in exercise and fitness activities (exercise), motions that involve the conceptualization of imaginary objects (mime), and motions that are used to convey information to other people (communication). 
 
 Demographics
 ------------
 ChildID    Sex      Age     Handedness    Grade       ||       AdultID     Sex      Age    Handedness     EducationCompleted
 ______________________________________________________________________________________________________________________________
-290         M       6       R             K           ||        934         M       32      R             Grad
-644         F       9       R             4           ||        970         M       28      R             Grad
-723         M       8       R             3           ||        734         M       22      R             Undergrad
-106         M       6       R             K           ||        921         M       26      L             Undergrad
-474         F       6       R             1           ||        888         F       25      R             Grad
-337         F       5       B             Pre-K       ||        976         M       20      R             Some college
-595         M       5       B             Pre-K       ||        876         F       23      R             Undergrad
-103         F       8       R             3           ||        604         F       20      R             Some college
-342         F       6       R             K           ||        565         F       19      R             High school
-169         M       8       R             2           ||        577         F       19      R             Some college
-
+337         F       5       B             Pre-K       ||        565         F       19      R             High school
+595         M       5       B             Pre-K       ||        577         F       19      R             Some college
+106         M       6       R             K           ||        604         F       20      R             Some college
+290         M       6       R             K           ||        976         M       20      R             Some college
+342         F       6       R             K           ||        734         M       22      R             Undergrad
+474         F       6       R             1           ||        876         F       23      R             Undergrad
+169         M       8       R             2           ||        921         M       26      L             Undergrad
+103         F       8       R             3           ||        888         F       25      R             Grad   
+723         M       8       R             3           ||        934         M       32      R             Grad
+644         F       9       R             4           ||        970         M       28      R             Grad                                                   
 Motion Set
 -----------
 Warm-up                     Exercise                              Mime                                    Communication
@@ -48,18 +43,8 @@ Bend your other knee        Walk in place as fast as you can      Kick a ball wi
                                                                   
 Data Collection
 -----------------
-Every participant performed 58 motions for a total of 1159 trials (58 motions x 20 participants); motion trial for jump high for AdultID:565 
-is missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as 
-possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were 
-demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, 
-put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen 
-in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the 
-letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 
-921-2 actions (forward lunge, make the letter M with your body)).
+Twenty participants performed 58 motions. A total of 19 RGB videos and 1159 motion trials (58 motions x 20 participants); RGB video for AdultID: 934 and motion trial for jump high for AdultID:565 are missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 921-2 actions (forward lunge, make the letter M with your body)). To counterbalance the motions performed in the study, participants performed one of five orders. In all orders, the first category of motions to be performed are those in the warm-up category since the motions in this category are used to situate the participants in the study. To decide the order in which the remaining categories are to be performed within an order, the remaining three categories are counterbalanced among the five orders. The arrangement of the categories within an order and the order used by a participant is provided below. 
 
 Data Format
 -----------------
-Data in the dataset has been labeled according to the category of the participant (child, adult). Within each category, the data has been labeled
- in the form of "POSE-PID_motion#-motionName-Timestamp.csv." PID is the participant id which is unique for each participant. motion# is the 
-number of the motion labeled 01--58 according to the order the motion was performed. motionName is the name of the motion being performed. 
-Timestamp is the UNIX timestamp representing the date and time the motion was performed. 
+The dataset is organized into RGB videos and skeleton data. Each RGB video includes all 58 motions performed by a participant. Data in the dataset has been labeled according to the category of the participant (child, adult). Within each category, the data has been labeled in the form of "POSE-PID_motion#-motionName-Timestamp.csv." PID is the participant id which is unique for each participant. motion# is the number of the motion labeled 01--58 according to the order the motion was performed. motionName is the name of the motion being performed. Timestamp is the UNIX timestamp representing the date and time the motion was performed. 
