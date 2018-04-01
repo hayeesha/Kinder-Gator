@@ -43,7 +43,31 @@ Bend your other knee        Walk in place as fast as you can      Kick a ball wi
                                                                   
 Data Collection
 -----------------
-Twenty participants performed 58 motions. A total of 19 RGB videos and 1159 motion trials (58 motions x 20 participants); RGB video for AdultID: 934 and motion trial for jump high for AdultID:565 are missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 921-2 actions (forward lunge, make the letter M with your body)). To counterbalance the motions performed in the study, participants performed one of five orders. In all orders, the first category of motions to be performed are those in the warm-up category since the motions in this category are used to situate the participants in the study. To decide the order in which the remaining categories are to be performed within an order, the remaining three categories are counterbalanced among the five orders. The arrangement of the categories within an order and the order used by a participant is provided below. 
+Twenty participants performed 58 motions. A total of 19 RGB videos and 1159 motion trials (58 motions x 20 participants); RGB video for AdultID: 934 and motion trial for jump high for AdultID:565 are missing due to a software error. Participants were allowed to perform the motions in free-form to ensure that the motions are as natural as possible. However, an example of the motion was demonstrated to participants if they forgot how the motion was to be performed. Motions were demonstrated for 4 child participants (11 actions) and 2 adult participants (2 actions): (Child IDs: 106 (2 actions - forward lunge, put your hands on your hip and lean to the side), 290 (6 actions - raise your arm to one side, bend your knee, swipe across an imaginary screen in front of you, fly like a bird, point at the camera, forward lunge), 337 (4 actions - bend your knee, lift your leg to one side, make the letter (M, K) with your body), 342 (2 actions - make the letter (A, K) with your body) and Adult IDs: 888-(1 action - forward lunge), 921-2 actions (forward lunge, make the letter M with your body)). To counterbalance the motions performed in the study, participants performed one of six sets. The sets contain the ordering of the categories. Each set began with the warm-up motions since these motions are used to situate the participants in the study and the order of the remaining three categories were counterbalanced, thus creating six sets (see below). 
+  
+SET#                ORDER
+__________________________________________________________________
+1                   Warm-up, Exercise, Communication, Mime
+2                   Warm-up, Exercise, Mime, Communication
+3                   Warm-up, Mime, Exercise, Communication
+4                   Warm-up, Mime, Communication, Exercise
+5                   Warm-up, Communication, Exercise, Mime
+6                   Warm-up, Communication, Mime, Exercise
+
+
+
+ChildID             ORDER#             ||            AdultID             ORDER#
+_________________________________________________________________________________
+337                   3                ||            565                   1
+595                   4                ||            577                   2
+106                   1                ||            604                   6
+290                   4                ||            976                   4
+342                   6                ||            734                   3
+474                   2                ||            876                   5
+169                   2                ||            921                   1
+103                   4                ||            888                   3
+723                   6                ||            970                   2
+644                   5                ||            934                   1
 
 Data Format
 -----------------
